@@ -4,38 +4,6 @@
 	height: $content-height;
 }
 
-/* Custom css for filter and search*/
-
-.search {
-	margin: 0 -15px;
-	border-bottom: 1px solid $border-color;
-	max-height: calc(100% - 155px);
-    overflow-y: auto;
-	.card {
-		border: 0;
-	}
-	.card-header {
-		border-bottom: 0;
-		border-top: 1px solid $border-color;
-		padding: 0;
-		a {
-			padding: .75rem 1.25rem;
-			display: block;
-			text-decoration: none;
-			color: $onix-main-color;
-		}
-		.fa-caret-right {
-			margin-right: 5px;
-			color: #000;
-		}
-		&.active {
-			.fa-caret-right {
-				transform: rotate(45deg);
-			}
-		}
-	}
-}
-
 /* Custom css for subtabs */
 .sub-tabs {
 	margin: 0 -15px;

@@ -27,59 +27,14 @@ body, html {
 	&:focus, &:active {
 		outline: none;
 	}
+	&:active {
+		padding-top: 3px;
+	}
 }
 
 .btn-primary {
 	background-color: $onix-main-color;
 	&:hover, &:active, &:not(:disabled):not(.disabled):active {
 		background-color: $onix-main-color-hover;
-	}
-	&:active {
-		padding-top: 4px;
-	}
-}
-
-.btn-ribbon {
-	border: 0;
-	background-color: #fff;
-	padding: 5px;
-	outline: 0;
-	&:hover {
-		background-color: $item-color-hover;
-	}
-	&:active {
-		background-color: $item-color-selected;
-	}
-	> div {
-		background-image: url('#{$assets-url}/images/ribbon-menu-icons.png');
-		background-repeat: no-repeat;
-		height: 32px;
-		width: 32px;
-		margin: auto;
-	}
-	&.btn-new {
-		> div {
-			background-position:  -35px top;
-		}
-	}
-	&.btn-save {
-		> div {
-			background-position: -69px top;
-		}
-	}
-	&.btn-delete {
-		> div {
-			background-position: -137px top;
-		}
-	}
-	&.btn-properties {
-		> div {
-			background-position: -137px -69px;
-		}
-	}
-	&.btn-report {
-		> div {
-			background-position: -171px top;
-		}
 	}
 }
