@@ -1,4 +1,5 @@
 @import 'standard.scss';
+@import "~@ng-select/ng-select/themes/default.theme.css";
 
 .main-content {
 	height: $content-height;
@@ -51,5 +52,27 @@
 		&:hover {
 			background-color: $item-color-hover;
 		}
+	}
+}
+
+/* Custom ng-select */
+.ng-select.custom {
+	position: relative;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	.ng-select-container {
+		border-radius: 0;
+		border-color: $border-color;
+		height: 29px;
+		min-height: 29px;
+	}
+
+	.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked {
+		background-color: $item-color-hover;
+	}
+
+	.ng-arrow-wrapper .ng-arrow {
+		border-width: 5px 3px 2.5px;
+		border-color: #000 transparent transparent;
 	}
 }
