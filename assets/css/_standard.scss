@@ -28,7 +28,7 @@ body, html {
 		outline: none;
 	}
 	&:active {
-		padding-top: 3px;
+		opacity: .7;
 	}
 }
 
@@ -37,4 +37,10 @@ body, html {
 	&:hover, &:active, &:not(:disabled):not(.disabled):active {
 		background-color: $onix-main-color-hover;
 	}
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid $border-color;
 }
