@@ -16,6 +16,15 @@ body, html {
 	color: #000;
 }
 
+textarea {
+	resize: none;
+	min-height: 60px;
+}
+
+a {
+	color: $onix-main-color;
+}
+
 .btn {
 	border-radius: 0;
 	min-width: 74px;
