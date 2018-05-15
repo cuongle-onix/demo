@@ -40,7 +40,6 @@ textarea {
 .form-control {
 	&:focus {
 		box-shadow: none;
-		border-color: $border-color;
 		outline: 0;
 	}
 }
