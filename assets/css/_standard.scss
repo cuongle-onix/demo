@@ -9,18 +9,12 @@ $color-6: #F6E8EB;
 $color-7: #FCF8F9;
 $color-8: #000000;
 
-$onix-main-color: #AC193D;
-$onix-main-color-hover: #981515;
-$onix-main-color-selected: #981515;
 $border-color: #c6c6c6;
 $item-border-color: #e8e8e8;
 $content-height: calc(100% - 178px);
 
-$item-color-hover: #e7258217;
-$item-color-selected: #f99eb4;
-
-$child-color: #B9CCFF;
-$child-color-hover: #cddaff;
+$child-color: #dce5ff;
+$child-color-hover: #edf2ff;
 
 body, html {
 	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -32,6 +26,11 @@ body, html {
 textarea {
 	resize: none;
 	min-height: 60px;
+	border-color: $border-color;
+}
+
+input {
+	border-color: $border-color;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -55,7 +54,11 @@ textarea {
 }
 
 a {
-	color: $onix-main-color;
+	color: $color-4;
+}
+
+.modal-content {
+	border-radius: 0;
 }
 
 .btn {
@@ -75,9 +78,9 @@ a {
 }
 
 .btn-primary {
-	background-color: $onix-main-color;
+	background-color: $color-4;
 	&:hover, &:active, &:not(:disabled):not(.disabled):active {
-		background-color: $onix-main-color-hover;
+		background-color: $color-5;
 	}
 }
 
