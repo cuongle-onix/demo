@@ -105,7 +105,7 @@ $tab-height: calc(100% - 35px);
 		height: 100%;
 		.ng-arrow {
 			border-width: 6px 3px 2.5px;
-			border-color: #000 transparent transparent;
+			border-color: #000 transparent transparent !important;
 			top: 5px;
 			left: 3px;
 		}
