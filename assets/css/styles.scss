@@ -37,7 +37,7 @@ $tab-height: calc(100% - 35px);
 	.tab-pane {
 		padding: 0 15px;
 		height: 100%;
-		overflow-y: auto;
+		overflow: auto;
 		.splitter {
 			height: $tab-height;
 		}
