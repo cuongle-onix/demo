@@ -116,3 +116,26 @@ $tab-height: calc(100% - 35px);
 	box-shadow: none;
 	border-color: #80bdff;
 }
+
+/* Custom timepicker */
+.timepicker {
+	display: flex;
+	align-items: center;
+	border: 1px solid $border-color;
+	border-left: 0;
+	.ngb-tp {
+		.btn {
+			padding: 0;
+			min-width: 0;
+			border: 0;
+		}
+		input {
+			padding: 0;
+			border: 0;
+			width: 100%;
+		}
+		.ngb-tp-spacer {
+			width: auto;
+		}
+	}
+} 
