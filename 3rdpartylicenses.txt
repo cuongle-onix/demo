@@ -188,14 +188,6 @@ MIT
 MIT
 MIT
 
-@angular/platform-browser@5.2.9
-MIT
-MIT
-
-@angular/platform-browser-dynamic@5.2.9
-MIT
-MIT
-
 webpack@3.11.0
 MIT
 Copyright JS Foundation and other contributors
@@ -218,6 +210,14 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+@angular/platform-browser@5.2.9
+MIT
+MIT
+
+@angular/platform-browser-dynamic@5.2.9
+MIT
+MIT
 
 core-js@2.5.4
 MIT
