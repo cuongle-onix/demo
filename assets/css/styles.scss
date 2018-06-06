@@ -3,6 +3,7 @@
 $tab-height: calc(100% - 35px);
 .main-content {
     height: $content-height;
+    padding: 0;
 }
 
 /* Custom css for subtabs */
@@ -37,7 +38,7 @@ $tab-height: calc(100% - 35px);
         height: 100%;
         overflow: auto;
         .splitter {
-            height: $tab-height;
+            height: 100%;
         }
     }
 }
@@ -49,6 +50,9 @@ $tab-height: calc(100% - 35px);
                 border-bottom: 3px solid #042ca0;
             }
         }
+    }
+    .tab-pane {
+        padding: 0;
     }
     .list-container {
         .item {
