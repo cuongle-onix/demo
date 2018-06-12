@@ -41,6 +41,11 @@ $tab-height: calc(100% - 35px);
             height: 100%;
         }
     }
+    .connected-list {
+        .list-container {
+            height: 100%;
+        }
+    }
 }
 
 .child-tabs {
@@ -130,11 +135,10 @@ $tab-height: calc(100% - 35px);
 /* Custom timepicker */
 
 .timepicker {
-    display: flex;
-    align-items: center;
     border: 1px solid $border-color;
     border-left: 0;
     .ngb-tp {
+        justify-content: center;
         .btn {
             padding: 0;
             min-width: 0;
